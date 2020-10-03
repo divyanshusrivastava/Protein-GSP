@@ -1,3 +1,8 @@
-# matlab intermediate files
+# directories
+notebooks/
 
+# matlab intermediate files
 *.m~
+
+# jupyter notebooks
+*ipynb
