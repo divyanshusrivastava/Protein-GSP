@@ -1,0 +1,665 @@
+HEADER    TRANSCRIPTION REGULATION                12-MAY-93   1CSP      1CSP   2
+COMPND    MAJOR COLD SHOCK PROTEIN (CSPB)                               1CSP   3
+SOURCE    ORGANISM: BACILLUS SUBTILIS;                                  1CSP   4
+SOURCE   2 EXPRESSION_SYSTEM: ESCHERICHIA COLI                          1CSP   5
+AUTHOR    H.SCHINDELIN,U.HEINEMANN                                      1CSP   6
+REVDAT   1   12-MAY-95 1CSP    0                                        1CSP   7
+JRNL        AUTH   H.SCHINDELIN,M.A.MARAHIEL,U.HEINEMANN                1CSP   8
+JRNL        TITL   CRYSTAL STRUCTURE OF THE BACILLUS SUBTILIS MAJOR     1CSP   9
+JRNL        TITL 2 COLD SHOCK PROTEIN, CSPB:  A UNIVERSAL               1CSP  10
+JRNL        TITL 3 NUCLEIC-ACID BINDING DOMAIN                          1CSP  11
+JRNL        REF    TO BE PUBLISHED                                      1CSP  12
+JRNL        REFN                                                  0353  1CSP  13
+REMARK   1                                                              1CSP  14
+REMARK   1 REFERENCE 1                                                  1CSP  15
+REMARK   1  AUTH   H.SCHINDELIN,M.HERRLER,G.WILLIMSKY,M.A.MARAHIEL,     1CSP  16
+REMARK   1  AUTH 2 U.HEINEMANN                                          1CSP  17
+REMARK   1  TITL   OVERPRODUCTION, CRYSTALLIZATION, AND PRELIMINARY     1CSP  18
+REMARK   1  TITL 2 X-RAY DIFFRACTION STUDIES OF THE MAJOR COLD SHOCK    1CSP  19
+REMARK   1  TITL 3 PROTEIN FROM BACILLUS SUBTILIS, CSPB                 1CSP  20
+REMARK   1  REF    PROTEINS.STRUCT.,FUNCT.,      V.  14   120 1992      1CSP  21
+REMARK   1  REF  2 GENET.                                               1CSP  22
+REMARK   1  REFN   ASTM PSFGEY  US ISSN 0887-3585                 0867  1CSP  23
+REMARK   2                                                              1CSP  24
+REMARK   2 RESOLUTION. 2.5  ANGSTROMS.                                  1CSP  25
+REMARK   3                                                              1CSP  26
+REMARK   3 REFINEMENT.                                                  1CSP  27
+REMARK   3   PROGRAM                    TNT                             1CSP  28
+REMARK   3   AUTHORS                    TRONRUD                         1CSP  29
+REMARK   3   R VALUE                    0.195                           1CSP  30
+REMARK   3   RMSD BOND DISTANCES        0.013  ANGSTROMS                1CSP  31
+REMARK   3   RMSD BOND ANGLES           2.29   DEGREES                  1CSP  32
+REMARK   3                                                              1CSP  33
+REMARK   3   NUMBER OF REFLECTIONS      3496                            1CSP  34
+REMARK   3   RESOLUTION RANGE      10.0 - 2.45 ANGSTROMS                1CSP  35
+REMARK   3   DATA CUTOFF                1.0    SIGMA(F)                 1CSP  36
+REMARK   3   PERCENT COMPLETION         97.5                            1CSP  37
+REMARK   3                                                              1CSP  38
+REMARK   3   NUMBER OF PROTEIN ATOMS                        505         1CSP  39
+REMARK   3   NUMBER OF SOLVENT ATOMS                         40         1CSP  40
+REMARK   4                                                              1CSP  41
+REMARK   4 A DIMERIC MOLECULE IS CREATED BY A CRYSTALLOGRAPHIC DYAD     1CSP  42
+REMARK   4 AXIS.  THE CRYSTALLOGRAPHIC SYMMETRY OPERATOR TO CREATE      1CSP  43
+REMARK   4 THE SECOND SUBUNIT FROM FRACTIONAL CRYSTALLOGRAPHIC          1CSP  44
+REMARK   4 COORDINATES OF THE FIRST IS GIVEN BELOW.                     1CSP  45
+REMARK   4    0.000000  1.000000  0.000000       0.000000               1CSP  46
+REMARK   4    1.000000  0.000000  0.000000       0.000000               1CSP  47
+REMARK   4    0.000000  0.000000 -1.000000       0.000000               1CSP  48
+REMARK   5                                                              1CSP  49
+REMARK   5 THE SIDE CHAINS OF RESIDUES GLU 3, GLU 21, GLU 36 AND GLU    1CSP  50
+REMARK   5 66 ARE DISORDERED AND WERE NOT INCLUDED IN THE MODEL.        1CSP  51
+REMARK   6                                                              1CSP  52
+REMARK   6 STRANDS 1 TO 4 OF THE BETA-SHEET HAVE GREEK-KEY TOPOLOGY.    1CSP  53
+REMARK   6 THE SHEET FORMS A FIVE-STRANDED BETA-BARREL WITH BULGES IN   1CSP  54
+REMARK   6 STRANDS 3 AND 5.  IN ORDER TO REPRESENT THIS FEATURE IN      1CSP  55
+REMARK   6 THE SHEET RECORDS BELOW, TWO SHEETS ARE DEFINED.             1CSP  56
+REMARK   7                                                              1CSP  57
+REMARK   7 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;   1CSP  58
+REMARK   7 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;  1CSP  59
+REMARK   7 I=INSERTION CODE):                                           1CSP  60
+REMARK   7   M RES CSSEQI  ATOMS                                        1CSP  61
+REMARK   7     GLU     3    CG   CD   OE1  OE2                          1CSP  62
+REMARK   7     GLU    21    CG   CD   OE1  OE2                          1CSP  63
+REMARK   7     GLU    36    CG   CD   OE1  OE2                          1CSP  64
+REMARK   7     GLU    66    CG   CD   OE1  OE2                          1CSP  65
+REMARK   8                                                              1CSP  66
+REMARK   8 THE FOLLOWING SOLVENT MOLECULES LIE FARTHER THAN EXPECTED    1CSP  67
+REMARK   8 FROM THE PROTEIN OR NUCLEIC ACID MOLECULE AND MAY BE         1CSP  68
+REMARK   8 ASSOCIATED WITH A SYMMETRY RELATED MOLECULE (M=MODEL         1CSP  69
+REMARK   8 NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE  1CSP  70
+REMARK   8 NUMBER; I=INSERTION CODE):                                   1CSP  71
+REMARK   8                                                              1CSP  72
+REMARK   8  M RES CSSEQI                                                1CSP  73
+REMARK   8  0 HOH    108      DISTANCE =  8.53 ANGSTROMS                1CSP  74
+REMARK   8  0 HOH    110      DISTANCE =  9.71 ANGSTROMS                1CSP  75
+REMARK   8  0 HOH    120      DISTANCE =  5.92 ANGSTROMS                1CSP  76
+REMARK   8  0 HOH    124      DISTANCE =  6.91 ANGSTROMS                1CSP  77
+REMARK   8  0 HOH    128      DISTANCE =  9.15 ANGSTROMS                1CSP  78
+REMARK   8  0 HOH    129      DISTANCE =  5.13 ANGSTROMS                1CSP  79
+REMARK   8  0 HOH    132      DISTANCE =  5.25 ANGSTROMS                1CSP  80
+REMARK   8  0 HOH    137      DISTANCE =  5.13 ANGSTROMS                1CSP  81
+REMARK   9                                                              1CSP  82
+REMARK   9 WATER MOLECULE HOH 140 IS IN A SPECIAL POSITION WITH 0.50    1CSP  83
+REMARK   9 OCCUPANCY.  WATER MOLECULE 139 IS CLOSE TO A SPECIAL         1CSP  84
+REMARK   9 POSITION AND HAS 0.50 OCCUPANCY.                             1CSP  85
+REMARK 999                                                              1CSP  86
+REMARK 999 CROSS REFERENCE TO SEQUENCE DATABASE                         1CSP  87
+REMARK 999 SWISS-PROT ENTRY NAME       PDB ENTRY CHAIN NAME             1CSP  88
+REMARK 999    CPSB_BACSU                                                1CSP  89
+SEQRES   1     67  MET LEU GLU GLY LYS VAL LYS TRP PHE ASN SER GLU LYS  1CSP  90
+SEQRES   2     67  GLY PHE GLY PHE ILE GLU VAL GLU GLY GLN ASP ASP VAL  1CSP  91
+SEQRES   3     67  PHE VAL HIS PHE SER ALA ILE GLN GLY GLU GLY PHE LYS  1CSP  92
+SEQRES   4     67  THR LEU GLU GLU GLY GLN ALA VAL SER PHE GLU ILE VAL  1CSP  93
+SEQRES   5     67  GLU GLY ASN ARG GLY PRO GLN ALA ALA ASN VAL THR LYS  1CSP  94
+SEQRES   6     67  GLU ALA                                              1CSP  95
+FORMUL   2  HOH   *40(H2 O1)                                            1CSP  96
+HELIX    1 A   PHE     30  ALA     32  5                                1CSP  97
+SHEET    1 1   5 VAL    26  HIS    29  0                                1CSP  98
+SHEET    2 1   5 PHE    15  GLU    19 -1                                1CSP  99
+SHEET    3 1   5 TRP     8  ASN    10 -1                                1CSP 100
+SHEET    4 1   5 ALA    46  GLY    54 -1                                1CSP 101
+SHEET    5 1   5 THR    64  LYS    65 -1                                1CSP 102
+SHEET    1 2   5 VAL    26  HIS    29  0                                1CSP 103
+SHEET    2 2   5 PHE    15  GLU    19 -1                                1CSP 104
+SHEET    3 2   5 LEU     2  VAL     6 -1                                1CSP 105
+SHEET    4 2   5 ALA    46  GLY    54 -1                                1CSP 106
+SHEET    5 2   5 GLY    57  ALA    61 -1                                1CSP 107
+TURN     1 P1  ASN    10  PHE    15     PI-TURN                         1CSP 108
+TURN     2 B2  VAL    20  GLN    23                                     1CSP 109
+TURN     3 B3  GLU    42  GLN    45                                     1CSP 110
+TURN     4 B4  GLY    54  GLY    57                                     1CSP 111
+CRYST1   58.940   58.940   46.450  90.00  90.00 120.00 P 32 2 1      6  1CSP 112
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1CSP 113
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1CSP 114
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1CSP 115
+SCALE1      0.016966  0.009796  0.000000        0.00000                 1CSP 116
+SCALE2      0.000000  0.019591  0.000000        0.00000                 1CSP 117
+SCALE3      0.000000  0.000000  0.021529        0.00000                 1CSP 118
+ATOM      1  N   MET     1       7.603  26.951   8.500  1.00 26.93      1CSP 119
+ATOM      2  CA  MET     1       8.694  25.981   8.686  1.00 23.85      1CSP 120
+ATOM      3  C   MET     1       8.193  24.807   9.476  1.00 23.12      1CSP 121
+ATOM      4  O   MET     1       7.250  24.909  10.173  1.00 25.21      1CSP 122
+ATOM      5  CB  MET     1       9.784  26.645   9.476  1.00 29.15      1CSP 123
+ATOM      6  CG  MET     1      10.314  27.972   8.918  1.00 32.89      1CSP 124
+ATOM      7  SD  MET     1      12.112  27.921   8.500  1.00 38.42      1CSP 125
+ATOM      8  CE  MET     1      12.819  28.840   9.894  1.00 42.06      1CSP 126
+ATOM      9  N   LEU     2       8.900  23.684   9.336  1.00 23.14      1CSP 127
+ATOM     10  CA  LEU     2       8.458  22.612  10.126  1.00 25.09      1CSP 128
+ATOM     11  C   LEU     2       9.165  22.816  11.427  1.00 31.53      1CSP 129
+ATOM     12  O   LEU     2      10.020  23.684  11.566  1.00 33.83      1CSP 130
+ATOM     13  CB  LEU     2       9.018  21.336   9.476  1.00 24.82      1CSP 131
+ATOM     14  CG  LEU     2       8.458  21.183   8.082  1.00 26.98      1CSP 132
+ATOM     15  CD1 LEU     2       9.195  20.111   7.339  1.00 27.10      1CSP 133
+ATOM     16  CD2 LEU     2       7.043  20.775   8.222  1.00 28.46      1CSP 134
+ATOM     17  N   GLU     3       8.812  22.000  12.402  1.00 31.87      1CSP 135
+ATOM     18  CA  GLU     3       9.371  22.051  13.749  1.00 27.67      1CSP 136
+ATOM     19  C   GLU     3       9.725  20.622  14.028  1.00 25.85      1CSP 137
+ATOM     20  O   GLU     3       8.870  19.754  13.842  1.00 26.94      1CSP 138
+ATOM     21  CB  GLU     3       8.340  22.612  14.725  1.00 27.64      1CSP 139
+ATOM     22  N   GLY     4      10.933  20.366  14.446  1.00 25.47      1CSP 140
+ATOM     23  CA  GLY     4      11.316  18.988  14.771  1.00 24.75      1CSP 141
+ATOM     24  C   GLY     4      12.318  18.886  15.886  1.00 25.09      1CSP 142
+ATOM     25  O   GLY     4      12.554  19.805  16.676  1.00 25.63      1CSP 143
+ATOM     26  N   LYS     5      12.937  17.712  15.979  1.00 25.40      1CSP 144
+ATOM     27  CA  LYS     5      13.851  17.457  17.001  1.00 27.21      1CSP 145
+ATOM     28  C   LYS     5      15.118  16.793  16.536  1.00 23.68      1CSP 146
+ATOM     29  O   LYS     5      15.030  15.823  15.747  1.00 21.76      1CSP 147
+ATOM     30  CB  LYS     5      13.203  16.538  17.976  1.00 34.41      1CSP 148
+ATOM     31  CG  LYS     5      13.203  17.049  19.370  1.00 42.31      1CSP 149
+ATOM     32  CD  LYS     5      12.554  16.028  20.252  1.00 51.25      1CSP 150
+ATOM     33  CE  LYS     5      12.702  16.385  21.692  1.00 57.23      1CSP 151
+ATOM     34  NZ  LYS     5      12.260  17.763  22.017  1.00 59.48      1CSP 152
+ATOM     35  N   VAL     6      16.267  17.253  16.954  1.00 21.85      1CSP 153
+ATOM     36  CA  VAL     6      17.476  16.691  16.583  1.00 21.95      1CSP 154
+ATOM     37  C   VAL     6      17.505  15.313  17.140  1.00 27.93      1CSP 155
+ATOM     38  O   VAL     6      17.564  15.109  18.394  1.00 28.57      1CSP 156
+ATOM     39  CB  VAL     6      18.684  17.457  17.094  1.00 17.56      1CSP 157
+ATOM     40  CG1 VAL     6      19.951  16.793  16.768  1.00 17.14      1CSP 158
+ATOM     41  CG2 VAL     6      18.625  18.886  16.490  1.00 18.46      1CSP 159
+ATOM     42  N   LYS     7      17.417  14.343  16.257  1.00 30.37      1CSP 160
+ATOM     43  CA  LYS     7      17.476  12.914  16.629  1.00 30.82      1CSP 161
+ATOM     44  C   LYS     7      18.861  12.557  17.140  1.00 31.95      1CSP 162
+ATOM     45  O   LYS     7      19.038  11.842  18.115  1.00 32.87      1CSP 163
+ATOM     46  CB  LYS     7      17.063  12.097  15.468  1.00 31.45      1CSP 164
+ATOM     47  CG  LYS     7      16.827  10.668  15.793  1.00 34.76      1CSP 165
+ATOM     48  CD  LYS     7      15.619  10.107  15.096  1.00 38.09      1CSP 166
+ATOM     49  CE  LYS     7      15.531   8.626  15.003  1.00 39.68      1CSP 167
+ATOM     50  NZ  LYS     7      16.886   8.014  14.771  1.00 41.40      1CSP 168
+ATOM     51  N   TRP     8      19.804  13.067  16.443  1.00 32.33      1CSP 169
+ATOM     52  CA  TRP     8      21.218  12.761  16.768  1.00 30.40      1CSP 170
+ATOM     53  C   TRP     8      22.073  13.629  15.979  1.00 29.07      1CSP 171
+ATOM     54  O   TRP     8      21.749  13.986  14.864  1.00 26.92      1CSP 172
+ATOM     55  CB  TRP     8      21.572  11.332  16.676  1.00 31.63      1CSP 173
+ATOM     56  CG  TRP     8      21.660  10.668  15.329  1.00 35.43      1CSP 174
+ATOM     57  CD1 TRP     8      20.747   9.800  14.818  1.00 35.55      1CSP 175
+ATOM     58  CD2 TRP     8      22.839  10.566  14.446  1.00 33.98      1CSP 176
+ATOM     59  NE1 TRP     8      21.189   9.239  13.656  1.00 34.59      1CSP 177
+ATOM     60  CE2 TRP     8      22.456   9.698  13.424  1.00 33.61      1CSP 178
+ATOM     61  CE3 TRP     8      24.048  11.230  14.399  1.00 30.87      1CSP 179
+ATOM     62  CZ2 TRP     8      23.311   9.443  12.356  1.00 32.30      1CSP 180
+ATOM     63  CZ3 TRP     8      24.902  10.974  13.331  1.00 28.89      1CSP 181
+ATOM     64  CH2 TRP     8      24.519  10.107  12.356  1.00 30.64      1CSP 182
+ATOM     65  N   PHE     9      23.193  14.037  16.536  1.00 28.59      1CSP 183
+ATOM     66  CA  PHE     9      24.077  14.854  15.793  1.00 30.28      1CSP 184
+ATOM     67  C   PHE     9      25.433  14.547  16.211  1.00 36.66      1CSP 185
+ATOM     68  O   PHE     9      25.786  14.547  17.419  1.00 41.20      1CSP 186
+ATOM     69  CB  PHE     9      23.812  16.334  16.072  1.00 25.37      1CSP 187
+ATOM     70  CG  PHE     9      24.401  17.253  15.050  1.00 21.28      1CSP 188
+ATOM     71  CD1 PHE     9      23.694  17.559  13.889  1.00 22.53      1CSP 189
+ATOM     72  CD2 PHE     9      25.609  17.916  15.236  1.00 18.95      1CSP 190
+ATOM     73  CE1 PHE     9      24.136  18.529  12.960  1.00 21.47      1CSP 191
+ATOM     74  CE2 PHE     9      26.081  18.835  14.307  1.00 18.11      1CSP 192
+ATOM     75  CZ  PHE     9      25.374  19.141  13.192  1.00 19.95      1CSP 193
+ATOM     76  N   ASN    10      26.258  14.241  15.236  1.00 36.28      1CSP 194
+ATOM     77  CA  ASN    10      27.613  13.935  15.468  1.00 38.45      1CSP 195
+ATOM     78  C   ASN    10      28.380  15.262  15.514  1.00 40.37      1CSP 196
+ATOM     79  O   ASN    10      28.763  15.823  14.492  1.00 39.41      1CSP 197
+ATOM     80  CB  ASN    10      28.085  13.118  14.260  1.00 41.93      1CSP 198
+ATOM     81  CG  ASN    10      29.470  12.557  14.446  1.00 44.52      1CSP 199
+ATOM     82  OD1 ASN    10      30.354  13.271  14.864  1.00 44.99      1CSP 200
+ATOM     83  ND2 ASN    10      29.617  11.281  14.028  1.00 47.22      1CSP 201
+ATOM     84  N   SER    11      28.615  15.772  16.722  1.00 43.64      1CSP 202
+ATOM     85  CA  SER    11      29.293  17.049  16.815  1.00 43.70      1CSP 203
+ATOM     86  C   SER    11      30.737  17.100  16.211  1.00 41.95      1CSP 204
+ATOM     87  O   SER    11      31.179  18.171  15.886  1.00 42.01      1CSP 205
+ATOM     88  CB  SER    11      29.234  17.661  18.162  1.00 46.72      1CSP 206
+ATOM     89  OG  SER    11      29.558  19.039  18.162  1.00 49.20      1CSP 207
+ATOM     90  N   GLU    12      31.444  15.977  16.025  1.00 43.25      1CSP 208
+ATOM     91  CA  GLU    12      32.712  16.130  15.421  1.00 45.97      1CSP 209
+ATOM     92  C   GLU    12      32.653  16.232  13.935  1.00 44.26      1CSP 210
+ATOM     93  O   GLU    12      33.242  17.151  13.331  1.00 43.96      1CSP 211
+ATOM     94  CB  GLU    12      33.743  15.058  15.932  1.00 51.84      1CSP 212
+ATOM     95  CG  GLU    12      34.215  15.364  17.372  1.00 56.66      1CSP 213
+ATOM     96  CD  GLU    12      35.217  14.445  17.976  1.00 57.69      1CSP 214
+ATOM     97  OE1 GLU    12      36.454  14.547  17.744  1.00 59.19      1CSP 215
+ATOM     98  OE2 GLU    12      34.745  13.527  18.812  1.00 55.31      1CSP 216
+ATOM     99  N   LYS    13      31.887  15.313  13.331  1.00 43.05      1CSP 217
+ATOM    100  CA  LYS    13      31.651  15.211  11.891  1.00 41.76      1CSP 218
+ATOM    101  C   LYS    13      30.796  16.385  11.287  1.00 35.93      1CSP 219
+ATOM    102  O   LYS    13      31.032  16.793  10.173  1.00 39.64      1CSP 220
+ATOM    103  CB  LYS    13      31.002  13.884  11.520  1.00 46.35      1CSP 221
+ATOM    104  CG  LYS    13      31.887  12.659  11.845  1.00 51.72      1CSP 222
+ATOM    105  CD  LYS    13      33.006  12.455  10.823  1.00 56.14      1CSP 223
+ATOM    106  CE  LYS    13      33.213  10.974  10.498  1.00 59.24      1CSP 224
+ATOM    107  NZ  LYS    13      32.152  10.362   9.708  1.00 60.00      1CSP 225
+ATOM    108  N   GLY    14      29.912  16.895  12.077  1.00 28.01      1CSP 226
+ATOM    109  CA  GLY    14      29.087  18.018  11.659  1.00 21.08      1CSP 227
+ATOM    110  C   GLY    14      27.790  17.712  10.962  1.00 17.65      1CSP 228
+ATOM    111  O   GLY    14      27.319  18.529  10.219  1.00 19.26      1CSP 229
+ATOM    112  N   PHE    15      27.171  16.538  11.194  1.00 15.54      1CSP 230
+ATOM    113  CA  PHE    15      25.875  16.232  10.544  1.00 18.44      1CSP 231
+ATOM    114  C   PHE    15      25.049  15.313  11.427  1.00 17.44      1CSP 232
+ATOM    115  O   PHE    15      25.580  14.701  12.309  1.00 18.29      1CSP 233
+ATOM    116  CB  PHE    15      26.110  15.517   9.244  1.00 22.16      1CSP 234
+ATOM    117  CG  PHE    15      26.788  14.139   9.383  1.00 22.57      1CSP 235
+ATOM    118  CD1 PHE    15      26.081  13.016   9.662  1.00 23.31      1CSP 236
+ATOM    119  CD2 PHE    15      28.144  14.037   9.197  1.00 21.28      1CSP 237
+ATOM    120  CE1 PHE    15      26.641  11.740   9.754  1.00 21.88      1CSP 238
+ATOM    121  CE2 PHE    15      28.763  12.761   9.290  1.00 21.48      1CSP 239
+ATOM    122  CZ  PHE    15      27.997  11.638   9.569  1.00 22.05      1CSP 240
+ATOM    123  N   GLY    16      23.812  15.109  11.055  1.00 15.15      1CSP 241
+ATOM    124  CA  GLY    16      22.928  14.190  11.798  1.00 14.11      1CSP 242
+ATOM    125  C   GLY    16      21.543  14.139  11.194  1.00 17.68      1CSP 243
+ATOM    126  O   GLY    16      21.454  14.496  10.033  1.00 18.35      1CSP 244
+ATOM    127  N   PHE    17      20.511  13.680  11.938  1.00 18.48      1CSP 245
+ATOM    128  CA  PHE    17      19.126  13.629  11.427  1.00 17.14      1CSP 246
+ATOM    129  C   PHE    17      18.124  14.343  12.309  1.00 22.13      1CSP 247
+ATOM    130  O   PHE    17      18.271  14.394  13.470  1.00 28.18      1CSP 248
+ATOM    131  CB  PHE    17      18.684  12.148  11.427  1.00 16.37      1CSP 249
+ATOM    132  CG  PHE    17      19.273  11.536  10.219  1.00 20.52      1CSP 250
+ATOM    133  CD1 PHE    17      20.570  11.230  10.219  1.00 20.18      1CSP 251
+ATOM    134  CD2 PHE    17      18.507  11.434   9.058  1.00 23.30      1CSP 252
+ATOM    135  CE1 PHE    17      21.189  10.668   9.058  1.00 22.49      1CSP 253
+ATOM    136  CE2 PHE    17      19.038  10.923   7.897  1.00 23.54      1CSP 254
+ATOM    137  CZ  PHE    17      20.364  10.566   7.897  1.00 23.25      1CSP 255
+ATOM    138  N   ILE    18      17.063  14.956  11.705  1.00 20.05      1CSP 256
+ATOM    139  CA  ILE    18      16.032  15.619  12.449  1.00 17.07      1CSP 257
+ATOM    140  C   ILE    18      14.823  14.752  12.402  1.00 22.96      1CSP 258
+ATOM    141  O   ILE    18      14.647  14.037  11.427  1.00 24.95      1CSP 259
+ATOM    142  CB  ILE    18      15.766  16.997  11.938  1.00 13.20      1CSP 260
+ATOM    143  CG1 ILE    18      17.034  17.763  12.123  1.00 11.43      1CSP 261
+ATOM    144  CG2 ILE    18      14.617  17.661  12.727  1.00 13.16      1CSP 262
+ATOM    145  CD1 ILE    18      16.827  19.243  11.938  1.00 13.79      1CSP 263
+ATOM    146  N   GLU    19      14.057  14.752  13.424  1.00 27.77      1CSP 264
+ATOM    147  CA  GLU    19      12.849  13.986  13.517  1.00 33.55      1CSP 265
+ATOM    148  C   GLU    19      11.759  14.956  13.424  1.00 35.55      1CSP 266
+ATOM    149  O   GLU    19      11.788  16.028  14.074  1.00 36.80      1CSP 267
+ATOM    150  CB  GLU    19      12.908  13.271  14.864  1.00 42.20      1CSP 268
+ATOM    151  CG  GLU    19      11.582  12.812  15.514  1.00 49.95      1CSP 269
+ATOM    152  CD  GLU    19      11.817  11.587  16.304  1.00 56.06      1CSP 270
+ATOM    153  OE1 GLU    19      12.731  11.536  17.140  1.00 57.23      1CSP 271
+ATOM    154  OE2 GLU    19      11.110  10.566  15.979  1.00 59.39      1CSP 272
+ATOM    155  N   VAL    20      10.757  14.649  12.588  1.00 39.49      1CSP 273
+ATOM    156  CA  VAL    20       9.607  15.415  12.356  1.00 45.05      1CSP 274
+ATOM    157  C   VAL    20       8.487  14.394  12.216  1.00 50.51      1CSP 275
+ATOM    158  O   VAL    20       8.841  13.271  11.752  1.00 50.60      1CSP 276
+ATOM    159  CB  VAL    20       9.696  16.487  11.241  1.00 44.97      1CSP 277
+ATOM    160  CG1 VAL    20      10.491  16.028  10.033  1.00 44.42      1CSP 278
+ATOM    161  CG2 VAL    20       8.252  16.946  10.823  1.00 44.53      1CSP 279
+ATOM    162  N   GLU    21       7.338  14.649  12.727  1.00 56.16      1CSP 280
+ATOM    163  CA  GLU    21       6.248  13.680  12.634  1.00 59.28      1CSP 281
+ATOM    164  C   GLU    21       5.570  13.731  11.334  1.00 60.00      1CSP 282
+ATOM    165  O   GLU    21       5.187  14.803  10.823  1.00 60.00      1CSP 283
+ATOM    166  CB  GLU    21       5.275  13.833  13.749  1.00 60.00      1CSP 284
+ATOM    167  N   GLY    22       5.393  12.506  10.776  1.00 60.00      1CSP 285
+ATOM    168  CA  GLY    22       4.745  12.301   9.522  1.00 59.95      1CSP 286
+ATOM    169  C   GLY    22       5.599  12.761   8.361  1.00 59.11      1CSP 287
+ATOM    170  O   GLY    22       5.216  13.527   7.525  1.00 60.00      1CSP 288
+ATOM    171  N   GLN    23       6.837  12.250   8.454  1.00 56.64      1CSP 289
+ATOM    172  CA  GLN    23       7.898  12.455   7.478  1.00 56.71      1CSP 290
+ATOM    173  C   GLN    23       8.988  11.485   7.989  1.00 55.82      1CSP 291
+ATOM    174  O   GLN    23       8.812  10.872   9.058  1.00 56.84      1CSP 292
+ATOM    175  CB  GLN    23       8.576  13.833   7.618  1.00 59.19      1CSP 293
+ATOM    176  CG  GLN    23       7.721  15.007   7.153  1.00 59.55      1CSP 294
+ATOM    177  CD  GLN    23       8.016  15.415   5.713  1.00 60.00      1CSP 295
+ATOM    178  OE1 GLN    23       8.959  14.905   5.063  1.00 60.00      1CSP 296
+ATOM    179  NE2 GLN    23       7.161  16.283   5.202  1.00 60.00      1CSP 297
+ATOM    180  N   ASP    24      10.049  11.383   7.246  1.00 53.41      1CSP 298
+ATOM    181  CA  ASP    24      11.081  10.515   7.757  1.00 49.76      1CSP 299
+ATOM    182  C   ASP    24      12.083  11.434   8.407  1.00 40.36      1CSP 300
+ATOM    183  O   ASP    24      11.935  12.608   8.500  1.00 40.43      1CSP 301
+ATOM    184  CB  ASP    24      11.788   9.698   6.642  1.00 55.97      1CSP 302
+ATOM    185  CG  ASP    24      10.904   8.779   5.899  1.00 59.91      1CSP 303
+ATOM    186  OD1 ASP    24      10.432   7.759   6.596  1.00 60.00      1CSP 304
+ATOM    187  OD2 ASP    24      10.668   8.882   4.691  1.00 60.00      1CSP 305
+ATOM    188  N   ASP    25      13.173  10.872   8.918  1.00 33.50      1CSP 306
+ATOM    189  CA  ASP    25      14.175  11.689   9.522  1.00 34.59      1CSP 307
+ATOM    190  C   ASP    25      14.764  12.506   8.407  1.00 33.03      1CSP 308
+ATOM    191  O   ASP    25      15.000  11.995   7.339  1.00 36.38      1CSP 309
+ATOM    192  CB  ASP    25      15.207  10.821  10.219  1.00 38.79      1CSP 310
+ATOM    193  CG  ASP    25      14.617  10.005  11.334  1.00 39.60      1CSP 311
+ATOM    194  OD1 ASP    25      13.615  10.311  11.891  1.00 34.82      1CSP 312
+ATOM    195  OD2 ASP    25      15.295   8.933  11.566  1.00 43.99      1CSP 313
+ATOM    196  N   VAL    26      15.089  13.782   8.686  1.00 30.89      1CSP 314
+ATOM    197  CA  VAL    26      15.649  14.649   7.711  1.00 27.80      1CSP 315
+ATOM    198  C   VAL    26      17.152  14.803   7.897  1.00 24.91      1CSP 316
+ATOM    199  O   VAL    26      17.564  15.211   8.965  1.00 27.02      1CSP 317
+ATOM    200  CB  VAL    26      15.030  16.028   7.850  1.00 27.78      1CSP 318
+ATOM    201  CG1 VAL    26      15.560  17.049   6.828  1.00 27.00      1CSP 319
+ATOM    202  CG2 VAL    26      13.497  15.926   7.711  1.00 29.05      1CSP 320
+ATOM    203  N   PHE    27      18.036  14.496   6.921  1.00 20.59      1CSP 321
+ATOM    204  CA  PHE    27      19.480  14.649   7.060  1.00 14.49      1CSP 322
+ATOM    205  C   PHE    27      19.745  16.130   7.293  1.00 14.04      1CSP 323
+ATOM    206  O   PHE    27      19.126  16.997   6.689  1.00 15.10      1CSP 324
+ATOM    207  CB  PHE    27      20.069  14.241   5.713  1.00 12.27      1CSP 325
+ATOM    208  CG  PHE    27      21.572  14.394   5.806  1.00  9.47      1CSP 326
+ATOM    209  CD1 PHE    27      22.309  13.424   6.410  1.00  9.89      1CSP 327
+ATOM    210  CD2 PHE    27      22.161  15.517   5.249  1.00 10.71      1CSP 328
+ATOM    211  CE1 PHE    27      23.694  13.578   6.503  1.00 10.95      1CSP 329
+ATOM    212  CE2 PHE    27      23.517  15.721   5.342  1.00 11.94      1CSP 330
+ATOM    213  CZ  PHE    27      24.283  14.701   5.992  1.00 10.28      1CSP 331
+ATOM    214  N   VAL    28      20.717  16.487   8.175  1.00 13.17      1CSP 332
+ATOM    215  CA  VAL    28      21.042  17.865   8.454  1.00 12.36      1CSP 333
+ATOM    216  C   VAL    28      22.545  18.018   8.500  1.00 14.72      1CSP 334
+ATOM    217  O   VAL    28      23.193  17.202   9.104  1.00 17.08      1CSP 335
+ATOM    218  CB  VAL    28      20.423  18.427   9.801  1.00 11.54      1CSP 336
+ATOM    219  CG1 VAL    28      20.776  17.610  11.009  1.00  9.90      1CSP 337
+ATOM    220  CG2 VAL    28      20.894  19.856  10.080  1.00 10.62      1CSP 338
+ATOM    221  N   HIS    29      23.016  19.039   7.804  1.00 11.38      1CSP 339
+ATOM    222  CA  HIS    29      24.431  19.243   7.757  1.00  8.85      1CSP 340
+ATOM    223  C   HIS    29      24.666  20.571   8.454  1.00 11.33      1CSP 341
+ATOM    224  O   HIS    29      23.841  21.387   8.454  1.00 14.22      1CSP 342
+ATOM    225  CB  HIS    29      24.873  19.192   6.317  1.00 11.15      1CSP 343
+ATOM    226  CG  HIS    29      26.346  19.397   6.131  1.00 11.81      1CSP 344
+ATOM    227  ND1 HIS    29      26.818  20.622   5.620  1.00 12.31      1CSP 345
+ATOM    228  CD2 HIS    29      27.348  18.580   6.364  1.00 11.85      1CSP 346
+ATOM    229  CE1 HIS    29      28.144  20.468   5.574  1.00 12.57      1CSP 347
+ATOM    230  NE2 HIS    29      28.468  19.294   5.992  1.00 14.62      1CSP 348
+ATOM    231  N   PHE    30      25.845  20.775   9.058  1.00 14.75      1CSP 349
+ATOM    232  CA  PHE    30      26.081  22.000   9.754  1.00 20.11      1CSP 350
+ATOM    233  C   PHE    30      25.934  23.276   9.011  1.00 22.79      1CSP 351
+ATOM    234  O   PHE    30      25.757  24.297   9.615  1.00 27.67      1CSP 352
+ATOM    235  CB  PHE    30      27.437  22.000  10.498  1.00 22.01      1CSP 353
+ATOM    236  CG  PHE    30      28.615  22.102   9.522  1.00 22.87      1CSP 354
+ATOM    237  CD1 PHE    30      28.998  23.276   8.918  1.00 17.79      1CSP 355
+ATOM    238  CD2 PHE    30      29.323  20.979   9.244  1.00 23.93      1CSP 356
+ATOM    239  CE1 PHE    30      30.030  23.327   8.036  1.00 17.97      1CSP 357
+ATOM    240  CE2 PHE    30      30.443  20.979   8.361  1.00 21.66      1CSP 358
+ATOM    241  CZ  PHE    30      30.737  22.204   7.757  1.00 18.04      1CSP 359
+ATOM    242  N   SER    31      26.110  23.174   7.711  1.00 20.57      1CSP 360
+ATOM    243  CA  SER    31      25.993  24.399   6.921  1.00 18.39      1CSP 361
+ATOM    244  C   SER    31      24.578  24.909   6.875  1.00 20.65      1CSP 362
+ATOM    245  O   SER    31      24.313  25.981   6.410  1.00 26.09      1CSP 363
+ATOM    246  CB  SER    31      26.523  24.195   5.528  1.00 17.33      1CSP 364
+ATOM    247  OG  SER    31      26.081  22.919   5.063  1.00 15.85      1CSP 365
+ATOM    248  N   ALA    32      23.635  24.093   7.386  1.00 20.63      1CSP 366
+ATOM    249  CA  ALA    32      22.220  24.501   7.386  1.00 17.39      1CSP 367
+ATOM    250  C   ALA    32      21.896  25.267   8.640  1.00 17.72      1CSP 368
+ATOM    251  O   ALA    32      20.835  25.981   8.733  1.00 18.94      1CSP 369
+ATOM    252  CB  ALA    32      21.366  23.225   7.293  1.00 15.95      1CSP 370
+ATOM    253  N   ILE    33      22.780  25.164   9.615  1.00 15.90      1CSP 371
+ATOM    254  CA  ILE    33      22.574  25.828  10.869  1.00 18.49      1CSP 372
+ATOM    255  C   ILE    33      22.721  27.308  10.823  1.00 25.90      1CSP 373
+ATOM    256  O   ILE    33      23.753  27.870  10.405  1.00 27.06      1CSP 374
+ATOM    257  CB  ILE    33      23.399  25.216  11.984  1.00 18.02      1CSP 375
+ATOM    258  CG1 ILE    33      23.075  23.735  12.123  1.00 17.83      1CSP 376
+ATOM    259  CG2 ILE    33      23.075  25.879  13.285  1.00 20.42      1CSP 377
+ATOM    260  CD1 ILE    33      24.106  22.970  12.913  1.00 19.33      1CSP 378
+ATOM    261  N   GLN    34      21.631  27.972  11.287  1.00 34.87      1CSP 379
+ATOM    262  CA  GLN    34      21.454  29.401  11.380  1.00 40.04      1CSP 380
+ATOM    263  C   GLN    34      21.985  29.809  12.774  1.00 45.96      1CSP 381
+ATOM    264  O   GLN    34      21.985  28.993  13.749  1.00 47.43      1CSP 382
+ATOM    265  CB  GLN    34      20.010  29.860  11.287  1.00 39.34      1CSP 383
+ATOM    266  CG  GLN    34      19.391  29.401   9.987  1.00 39.56      1CSP 384
+ATOM    267  CD  GLN    34      20.187  29.860   8.826  1.00 40.50      1CSP 385
+ATOM    268  OE1 GLN    34      20.364  31.086   8.593  1.00 41.46      1CSP 386
+ATOM    269  NE2 GLN    34      20.865  28.891   8.129  1.00 40.19      1CSP 387
+ATOM    270  N   GLY    35      22.397  31.034  12.867  1.00 48.45      1CSP 388
+ATOM    271  CA  GLY    35      22.928  31.647  14.028  1.00 51.52      1CSP 389
+ATOM    272  C   GLY    35      24.401  32.055  13.796  1.00 52.49      1CSP 390
+ATOM    273  O   GLY    35      24.902  32.004  12.681  1.00 55.74      1CSP 391
+ATOM    274  N   GLU    36      25.020  32.515  14.910  1.00 49.60      1CSP 392
+ATOM    275  CA  GLU    36      26.346  32.974  14.864  1.00 48.61      1CSP 393
+ATOM    276  C   GLU    36      27.083  32.004  15.793  1.00 46.04      1CSP 394
+ATOM    277  O   GLU    36      26.464  31.341  16.629  1.00 48.79      1CSP 395
+ATOM    278  CB  GLU    36      26.405  34.403  15.421  1.00 50.74      1CSP 396
+ATOM    279  N   GLY    37      28.380  31.800  15.607  1.00 41.59      1CSP 397
+ATOM    280  CA  GLY    37      29.057  30.830  16.490  1.00 36.19      1CSP 398
+ATOM    281  C   GLY    37      29.293  29.503  15.886  1.00 32.25      1CSP 399
+ATOM    282  O   GLY    37      29.028  29.350  14.678  1.00 35.75      1CSP 400
+ATOM    283  N   PHE    38      29.824  28.584  16.629  1.00 26.05      1CSP 401
+ATOM    284  CA  PHE    38      30.118  27.257  16.165  1.00 22.49      1CSP 402
+ATOM    285  C   PHE    38      28.822  26.543  15.747  1.00 25.33      1CSP 403
+ATOM    286  O   PHE    38      27.849  26.492  16.490  1.00 30.75      1CSP 404
+ATOM    287  CB  PHE    38      30.796  26.594  17.326  1.00 16.91      1CSP 405
+ATOM    288  CG  PHE    38      31.386  25.267  16.861  1.00 12.99      1CSP 406
+ATOM    289  CD1 PHE    38      32.417  25.216  16.025  1.00 15.09      1CSP 407
+ATOM    290  CD2 PHE    38      30.737  24.144  17.326  1.00 17.68      1CSP 408
+ATOM    291  CE1 PHE    38      32.947  23.990  15.561  1.00 15.75      1CSP 409
+ATOM    292  CE2 PHE    38      31.238  22.868  16.861  1.00 19.43      1CSP 410
+ATOM    293  CZ  PHE    38      32.329  22.816  16.025  1.00 18.14      1CSP 411
+ATOM    294  N   LYS    39      28.733  25.981  14.539  1.00 23.72      1CSP 412
+ATOM    295  CA  LYS    39      27.525  25.318  14.121  1.00 20.17      1CSP 413
+ATOM    296  C   LYS    39      27.437  23.939  14.678  1.00 18.02      1CSP 414
+ATOM    297  O   LYS    39      28.203  23.123  14.260  1.00 22.99      1CSP 415
+ATOM    298  CB  LYS    39      27.407  25.216  12.588  1.00 24.72      1CSP 416
+ATOM    299  CG  LYS    39      27.761  26.441  11.798  1.00 27.22      1CSP 417
+ATOM    300  CD  LYS    39      26.759  27.564  12.077  1.00 30.33      1CSP 418
+ATOM    301  CE  LYS    39      27.024  28.840  11.241  1.00 36.33      1CSP 419
+ATOM    302  NZ  LYS    39      28.439  29.248  11.334  1.00 43.26      1CSP 420
+ATOM    303  N   THR    40      26.494  23.633  15.561  1.00 14.68      1CSP 421
+ATOM    304  CA  THR    40      26.405  22.255  16.072  1.00 16.03      1CSP 422
+ATOM    305  C   THR    40      25.020  22.102  16.629  1.00 20.07      1CSP 423
+ATOM    306  O   THR    40      24.313  23.123  16.629  1.00 21.83      1CSP 424
+ATOM    307  CB  THR    40      27.554  21.898  17.140  1.00 18.90      1CSP 425
+ATOM    308  OG1 THR    40      27.584  20.519  17.372  1.00 24.19      1CSP 426
+ATOM    309  CG2 THR    40      27.348  22.663  18.441  1.00 15.32      1CSP 427
+ATOM    310  N   LEU    41      24.578  20.928  17.001  1.00 22.16      1CSP 428
+ATOM    311  CA  LEU    41      23.193  20.775  17.512  1.00 24.04      1CSP 429
+ATOM    312  C   LEU    41      23.252  19.652  18.487  1.00 25.94      1CSP 430
+ATOM    313  O   LEU    41      24.106  18.784  18.348  1.00 25.93      1CSP 431
+ATOM    314  CB  LEU    41      22.132  20.366  16.490  1.00 25.73      1CSP 432
+ATOM    315  CG  LEU    41      21.808  21.336  15.329  1.00 26.49      1CSP 433
+ATOM    316  CD1 LEU    41      21.218  20.519  14.214  1.00 21.21      1CSP 434
+ATOM    317  CD2 LEU    41      20.865  22.459  15.793  1.00 26.59      1CSP 435
+ATOM    318  N   GLU    42      22.397  19.601  19.509  1.00 29.23      1CSP 436
+ATOM    319  CA  GLU    42      22.338  18.580  20.484  1.00 31.31      1CSP 437
+ATOM    320  C   GLU    42      21.189  17.610  20.252  1.00 28.82      1CSP 438
+ATOM    321  O   GLU    42      20.157  18.069  19.834  1.00 28.82      1CSP 439
+ATOM    322  CB  GLU    42      22.073  19.039  21.924  1.00 38.99      1CSP 440
+ATOM    323  CG  GLU    42      22.987  20.111  22.575  1.00 47.12      1CSP 441
+ATOM    324  CD  GLU    42      22.309  20.877  23.643  1.00 53.99      1CSP 442
+ATOM    325  OE1 GLU    42      21.336  20.213  24.293  1.00 55.41      1CSP 443
+ATOM    326  OE2 GLU    42      22.574  22.051  23.922  1.00 56.53      1CSP 444
+ATOM    327  N   GLU    43      21.395  16.334  20.670  1.00 27.60      1CSP 445
+ATOM    328  CA  GLU    43      20.364  15.364  20.531  1.00 30.89      1CSP 446
+ATOM    329  C   GLU    43      19.214  15.926  21.460  1.00 31.58      1CSP 447
+ATOM    330  O   GLU    43      19.509  16.436  22.528  1.00 33.28      1CSP 448
+ATOM    331  CB  GLU    43      20.806  13.986  20.995  1.00 39.48      1CSP 449
+ATOM    332  CG  GLU    43      19.686  12.863  20.995  1.00 49.52      1CSP 450
+ATOM    333  CD  GLU    43      20.157  11.434  21.460  1.00 55.11      1CSP 451
+ATOM    334  OE1 GLU    43      21.307  11.076  21.553  1.00 56.75      1CSP 452
+ATOM    335  OE2 GLU    43      19.097  10.617  21.692  1.00 56.31      1CSP 453
+ATOM    336  N   GLY    44      17.977  15.823  21.042  1.00 30.84      1CSP 454
+ATOM    337  CA  GLY    44      16.886  16.283  21.878  1.00 27.27      1CSP 455
+ATOM    338  C   GLY    44      16.415  17.712  21.646  1.00 26.20      1CSP 456
+ATOM    339  O   GLY    44      15.265  18.069  21.924  1.00 27.08      1CSP 457
+ATOM    340  N   GLN    45      17.269  18.478  21.135  1.00 25.68      1CSP 458
+ATOM    341  CA  GLN    45      17.004  19.856  20.856  1.00 26.24      1CSP 459
+ATOM    342  C   GLN    45      15.884  20.060  19.834  1.00 27.15      1CSP 460
+ATOM    343  O   GLN    45      15.796  19.294  18.859  1.00 29.64      1CSP 461
+ATOM    344  CB  GLN    45      18.301  20.468  20.345  1.00 30.97      1CSP 462
+ATOM    345  CG  GLN    45      18.065  21.898  19.788  1.00 36.32      1CSP 463
+ATOM    346  CD  GLN    45      19.273  22.765  20.113  1.00 40.04      1CSP 464
+ATOM    347  OE1 GLN    45      20.452  22.357  20.020  1.00 37.69      1CSP 465
+ATOM    348  NE2 GLN    45      18.979  23.990  20.438  1.00 43.97      1CSP 466
+ATOM    349  N   ALA    46      15.059  21.081  20.020  1.00 27.84      1CSP 467
+ATOM    350  CA  ALA    46      14.028  21.438  19.137  1.00 28.35      1CSP 468
+ATOM    351  C   ALA    46      14.558  22.459  18.162  1.00 29.03      1CSP 469
+ATOM    352  O   ALA    46      15.265  23.378  18.534  1.00 25.91      1CSP 470
+ATOM    353  CB  ALA    46      12.878  22.102  19.974  1.00 27.21      1CSP 471
+ATOM    354  N   VAL    47      14.175  22.306  16.861  1.00 29.87      1CSP 472
+ATOM    355  CA  VAL    47      14.588  23.225  15.747  1.00 27.77      1CSP 473
+ATOM    356  C   VAL    47      13.497  23.480  14.725  1.00 28.19      1CSP 474
+ATOM    357  O   VAL    47      12.643  22.612  14.539  1.00 31.49      1CSP 475
+ATOM    358  CB  VAL    47      15.737  22.561  14.957  1.00 25.07      1CSP 476
+ATOM    359  CG1 VAL    47      17.063  22.714  15.700  1.00 26.70      1CSP 477
+ATOM    360  CG2 VAL    47      15.383  21.132  14.678  1.00 23.73      1CSP 478
+ATOM    361  N   SER    48      13.497  24.603  14.074  1.00 26.71      1CSP 479
+ATOM    362  CA  SER    48      12.554  24.909  13.052  1.00 26.47      1CSP 480
+ATOM    363  C   SER    48      13.350  24.858  11.752  1.00 26.64      1CSP 481
+ATOM    364  O   SER    48      14.440  25.420  11.705  1.00 24.31      1CSP 482
+ATOM    365  CB  SER    48      11.965  26.338  13.145  1.00 28.54      1CSP 483
+ATOM    366  OG  SER    48      11.022  26.441  14.167  1.00 34.16      1CSP 484
+ATOM    367  N   PHE    49      12.849  24.195  10.776  1.00 25.21      1CSP 485
+ATOM    368  CA  PHE    49      13.556  24.093   9.522  1.00 22.86      1CSP 486
+ATOM    369  C   PHE    49      12.643  23.837   8.361  1.00 25.98      1CSP 487
+ATOM    370  O   PHE    49      11.375  23.684   8.547  1.00 26.89      1CSP 488
+ATOM    371  CB  PHE    49      14.529  22.816   9.662  1.00 16.46      1CSP 489
+ATOM    372  CG  PHE    49      13.733  21.540   9.754  1.00 15.68      1CSP 490
+ATOM    373  CD1 PHE    49      12.908  21.234  10.869  1.00 16.86      1CSP 491
+ATOM    374  CD2 PHE    49      13.821  20.571   8.733  1.00 16.28      1CSP 492
+ATOM    375  CE1 PHE    49      12.260  20.009  10.962  1.00 14.91      1CSP 493
+ATOM    376  CE2 PHE    49      13.114  19.345   8.826  1.00 18.39      1CSP 494
+ATOM    377  CZ  PHE    49      12.318  19.090   9.940  1.00 15.97      1CSP 495
+ATOM    378  N   GLU    50      13.232  23.837   7.200  1.00 24.00      1CSP 496
+ATOM    379  CA  GLU    50      12.584  23.531   5.992  1.00 22.26      1CSP 497
+ATOM    380  C   GLU    50      13.291  22.408   5.435  1.00 20.31      1CSP 498
+ATOM    381  O   GLU    50      14.470  22.204   5.713  1.00 19.83      1CSP 499
+ATOM    382  CB  GLU    50      12.702  24.654   4.970  1.00 23.95      1CSP 500
+ATOM    383  CG  GLU    50      11.876  25.879   5.295  1.00 26.38      1CSP 501
+ATOM    384  CD  GLU    50      12.260  27.053   4.459  1.00 28.92      1CSP 502
+ATOM    385  OE1 GLU    50      13.586  27.104   4.181  1.00 30.21      1CSP 503
+ATOM    386  OE2 GLU    50      11.493  27.870   4.088  1.00 33.41      1CSP 504
+ATOM    387  N   ILE    51      12.613  21.642   4.599  1.00 21.22      1CSP 505
+ATOM    388  CA  ILE    51      13.203  20.520   3.902  1.00 21.66      1CSP 506
+ATOM    389  C   ILE    51      13.320  21.030   2.462  1.00 24.41      1CSP 507
+ATOM    390  O   ILE    51      12.348  21.489   1.904  1.00 25.96      1CSP 508
+ATOM    391  CB  ILE    51      12.318  19.294   3.902  1.00 18.38      1CSP 509
+ATOM    392  CG1 ILE    51      12.260  18.682   5.295  1.00 20.04      1CSP 510
+ATOM    393  CG2 ILE    51      12.790  18.274   2.926  1.00 19.13      1CSP 511
+ATOM    394  CD1 ILE    51      11.140  17.661   5.435  1.00 17.89      1CSP 512
+ATOM    395  N   VAL    52      14.558  21.030   1.858  1.00 23.30      1CSP 513
+ATOM    396  CA  VAL    52      14.823  21.489   0.511  1.00 20.56      1CSP 514
+ATOM    397  C   VAL    52      15.295  20.264  -0.232  1.00 21.25      1CSP 515
+ATOM    398  O   VAL    52      16.120  19.550   0.232  1.00 24.66      1CSP 516
+ATOM    399  CB  VAL    52      15.914  22.561   0.511  1.00 21.32      1CSP 517
+ATOM    400  CG1 VAL    52      16.326  22.868  -0.929  1.00 19.34      1CSP 518
+ATOM    401  CG2 VAL    52      15.472  23.837   1.161  1.00 22.41      1CSP 519
+ATOM    402  N   GLU    53      14.676  20.009  -1.347  1.00 23.08      1CSP 520
+ATOM    403  CA  GLU    53      15.000  18.835  -2.090  1.00 19.79      1CSP 521
+ATOM    404  C   GLU    53      15.383  19.192  -3.530  1.00 20.60      1CSP 522
+ATOM    405  O   GLU    53      14.706  19.754  -4.273  1.00 22.83      1CSP 523
+ATOM    406  CB  GLU    53      13.792  17.967  -2.230  1.00 19.27      1CSP 524
+ATOM    407  CG  GLU    53      14.293  16.691  -2.973  1.00 23.07      1CSP 525
+ATOM    408  CD  GLU    53      13.232  15.670  -2.973  1.00 29.48      1CSP 526
+ATOM    409  OE1 GLU    53      12.201  15.721  -2.369  1.00 30.47      1CSP 527
+ATOM    410  OE2 GLU    53      13.586  14.649  -3.762  1.00 33.93      1CSP 528
+ATOM    411  N   GLY    54      16.621  18.784  -3.855  1.00 23.31      1CSP 529
+ATOM    412  CA  GLY    54      17.181  18.937  -5.202  1.00 25.94      1CSP 530
+ATOM    413  C   GLY    54      17.446  17.559  -5.806  1.00 29.65      1CSP 531
+ATOM    414  O   GLY    54      16.739  16.640  -5.481  1.00 32.65      1CSP 532
+ATOM    415  N   ASN    55      18.537  17.406  -6.596  1.00 31.97      1CSP 533
+ATOM    416  CA  ASN    55      18.743  16.130  -7.153  1.00 35.38      1CSP 534
+ATOM    417  C   ASN    55      19.539  15.160  -6.224  1.00 33.56      1CSP 535
+ATOM    418  O   ASN    55      19.627  13.986  -6.503  1.00 36.94      1CSP 536
+ATOM    419  CB  ASN    55      19.509  16.130  -8.547  1.00 37.96      1CSP 537
+ATOM    420  CG  ASN    55      20.688  17.049  -8.500  1.00 39.13      1CSP 538
+ATOM    421  OD1 ASN    55      20.629  17.967  -7.757  1.00 42.38      1CSP 539
+ATOM    422  ND2 ASN    55      21.660  16.793  -9.290  1.00 40.80      1CSP 540
+ATOM    423  N   ARG    56      20.040  15.721  -5.156  1.00 28.95      1CSP 541
+ATOM    424  CA  ARG    56      20.717  14.956  -4.181  1.00 22.85      1CSP 542
+ATOM    425  C   ARG    56      19.774  14.343  -3.159  1.00 21.25      1CSP 543
+ATOM    426  O   ARG    56      20.187  13.629  -2.276  1.00 23.43      1CSP 544
+ATOM    427  CB  ARG    56      21.719  15.772  -3.484  1.00 21.37      1CSP 545
+ATOM    428  CG  ARG    56      23.134  15.262  -3.623  1.00 23.24      1CSP 546
+ATOM    429  CD  ARG    56      24.136  16.283  -3.112  1.00 23.21      1CSP 547
+ATOM    430  NE  ARG    56      25.108  15.619  -2.230  1.00 25.24      1CSP 548
+ATOM    431  CZ  ARG    56      26.051  16.232  -1.626  1.00 30.17      1CSP 549
+ATOM    432  NH1 ARG    56      26.258  17.508  -1.765  1.00 32.67      1CSP 550
+ATOM    433  NH2 ARG    56      26.936  15.517  -0.883  1.00 31.37      1CSP 551
+ATOM    434  N   GLY    57      18.448  14.598  -3.205  1.00 17.13      1CSP 552
+ATOM    435  CA  GLY    57      17.505  14.088  -2.230  1.00 14.86      1CSP 553
+ATOM    436  C   GLY    57      17.152  15.211  -1.208  1.00 14.26      1CSP 554
+ATOM    437  O   GLY    57      17.711  16.283  -1.208  1.00 16.21      1CSP 555
+ATOM    438  N   PRO    58      16.238  14.956  -0.279  1.00 14.21      1CSP 556
+ATOM    439  CA  PRO    58      15.855  15.926   0.743  1.00 17.13      1CSP 557
+ATOM    440  C   PRO    58      16.857  16.130   1.858  1.00 19.53      1CSP 558
+ATOM    441  O   PRO    58      17.446  15.211   2.369  1.00 22.17      1CSP 559
+ATOM    442  CB  PRO    58      14.558  15.415   1.347  1.00 14.55      1CSP 560
+ATOM    443  CG  PRO    58      14.676  13.884   1.208  1.00 15.70      1CSP 561
+ATOM    444  CD  PRO    58      15.590  13.629   0.000  1.00 14.06      1CSP 562
+ATOM    445  N   GLN    59      17.063  17.406   2.276  1.00 15.23      1CSP 563
+ATOM    446  CA  GLN    59      17.947  17.712   3.391  1.00 15.94      1CSP 564
+ATOM    447  C   GLN    59      17.387  18.886   4.088  1.00 18.69      1CSP 565
+ATOM    448  O   GLN    59      16.592  19.550   3.484  1.00 19.33      1CSP 566
+ATOM    449  CB  GLN    59      19.421  17.916   2.973  1.00 14.39      1CSP 567
+ATOM    450  CG  GLN    59      19.598  19.141   2.137  1.00 15.76      1CSP 568
+ATOM    451  CD  GLN    59      21.012  19.448   2.044  1.00 21.99      1CSP 569
+ATOM    452  OE1 GLN    59      21.778  19.141   2.973  1.00 27.21      1CSP 570
+ATOM    453  NE2 GLN    59      21.454  20.009   0.929  1.00 22.80      1CSP 571
+ATOM    454  N   ALA    60      17.741  19.192   5.342  1.00 19.16      1CSP 572
+ATOM    455  CA  ALA    60      17.210  20.315   6.085  1.00 14.83      1CSP 573
+ATOM    456  C   ALA    60      17.859  21.642   5.667  1.00 16.39      1CSP 574
+ATOM    457  O   ALA    60      19.008  21.694   5.249  1.00 18.24      1CSP 575
+ATOM    458  CB  ALA    60      17.358  20.060   7.571  1.00  9.96      1CSP 576
+ATOM    459  N   ALA    61      17.122  22.714   5.760  1.00 12.54      1CSP 577
+ATOM    460  CA  ALA    61      17.711  23.939   5.435  1.00 12.65      1CSP 578
+ATOM    461  C   ALA    61      17.181  24.960   6.410  1.00 13.54      1CSP 579
+ATOM    462  O   ALA    61      16.150  24.705   6.968  1.00 15.43      1CSP 580
+ATOM    463  CB  ALA    61      17.328  24.399   3.995  1.00 15.35      1CSP 581
+ATOM    464  N   ASN    62      17.947  25.981   6.642  1.00 16.87      1CSP 582
+ATOM    465  CA  ASN    62      17.535  27.002   7.618  1.00 26.14      1CSP 583
+ATOM    466  C   ASN    62      17.210  26.543   9.011  1.00 23.96      1CSP 584
+ATOM    467  O   ASN    62      16.179  26.900   9.615  1.00 25.60      1CSP 585
+ATOM    468  CB  ASN    62      16.326  27.870   7.060  1.00 32.12      1CSP 586
+ATOM    469  CG  ASN    62      16.768  28.635   5.853  1.00 40.19      1CSP 587
+ATOM    470  OD1 ASN    62      17.947  28.942   5.620  1.00 43.87      1CSP 588
+ATOM    471  ND2 ASN    62      15.766  28.942   5.017  1.00 42.14      1CSP 589
+ATOM    472  N   VAL    63      18.036  25.726   9.615  1.00 19.83      1CSP 590
+ATOM    473  CA  VAL    63      17.859  25.216  10.916  1.00 20.02      1CSP 591
+ATOM    474  C   VAL    63      18.065  26.287  11.938  1.00 26.79      1CSP 592
+ATOM    475  O   VAL    63      19.155  26.849  12.031  1.00 27.83      1CSP 593
+ATOM    476  CB  VAL    63      18.684  23.990  11.194  1.00 17.52      1CSP 594
+ATOM    477  CG1 VAL    63      18.330  23.480  12.588  1.00 17.69      1CSP 595
+ATOM    478  CG2 VAL    63      18.330  22.970  10.126  1.00 13.85      1CSP 596
+ATOM    479  N   THR    64      17.063  26.594  12.727  1.00 28.89      1CSP 597
+ATOM    480  CA  THR    64      17.152  27.564  13.749  1.00 28.87      1CSP 598
+ATOM    481  C   THR    64      16.916  26.849  15.050  1.00 30.60      1CSP 599
+ATOM    482  O   THR    64      16.061  25.981  15.189  1.00 29.99      1CSP 600
+ATOM    483  CB  THR    64      16.150  28.686  13.517  1.00 30.19      1CSP 601
+ATOM    484  OG1 THR    64      15.943  28.840  12.123  1.00 33.46      1CSP 602
+ATOM    485  CG2 THR    64      16.768  29.963  13.981  1.00 31.68      1CSP 603
+ATOM    486  N   LYS    65      17.711  27.206  16.025  1.00 35.15      1CSP 604
+ATOM    487  CA  LYS    65      17.564  26.543  17.279  1.00 42.38      1CSP 605
+ATOM    488  C   LYS    65      16.385  27.155  18.023  1.00 47.67      1CSP 606
+ATOM    489  O   LYS    65      16.385  28.278  18.534  1.00 48.86      1CSP 607
+ATOM    490  CB  LYS    65      18.890  26.696  18.069  1.00 44.85      1CSP 608
+ATOM    491  CG  LYS    65      20.128  25.981  17.419  1.00 47.48      1CSP 609
+ATOM    492  CD  LYS    65      21.425  26.696  17.790  1.00 49.82      1CSP 610
+ATOM    493  CE  LYS    65      22.692  25.930  17.419  1.00 50.47      1CSP 611
+ATOM    494  NZ  LYS    65      23.340  25.216  18.534  1.00 48.02      1CSP 612
+ATOM    495  N   GLU    66      15.236  26.390  17.976  1.00 51.16      1CSP 613
+ATOM    496  CA  GLU    66      13.969  26.747  18.673  1.00 52.18      1CSP 614
+ATOM    497  C   GLU    66      14.116  26.083  20.020  1.00 58.65      1CSP 615
+ATOM    498  O   GLU    66      15.177  25.675  20.438  1.00 60.00      1CSP 616
+ATOM    499  CB  GLU    66      12.731  26.236  17.883  1.00 46.34      1CSP 617
+ATOM    500  N   ALA    67      13.026  26.032  20.810  1.00 60.00      1CSP 618
+ATOM    501  CA  ALA    67      12.996  25.471  22.157  1.00 60.00      1CSP 619
+ATOM    502  C   ALA    67      11.700  24.654  22.482  1.00 60.00      1CSP 620
+ATOM    503  O   ALA    67      10.609  24.909  21.878  1.00 60.00      1CSP 621
+ATOM    504  CB  ALA    67      13.144  26.645  23.132  1.00 60.00      1CSP 622
+ATOM    505  OH  ALA    67      11.759  23.735  23.318  1.00 59.08      1CSP 623
+TER     506      ALA    67                                              1CSP 624
+HETATM  507  O   HOH   101       3.153  21.591  -4.227  1.00 15.19      1CSP 625
+HETATM  508  O   HOH   102      21.395  20.111   5.481  1.00 16.02      1CSP 626
+HETATM  509  O   HOH   103       4.509  20.571   5.435  1.00 25.23      1CSP 627
+HETATM  510  O   HOH   104      26.552  10.464   6.085  1.00 35.14      1CSP 628
+HETATM  511  O   HOH   105      14.087  12.761   4.738  1.00 33.63      1CSP 629
+HETATM  512  O   HOH   106       0.236  21.847  -4.041  1.00 36.99      1CSP 630
+HETATM  513  O   HOH   107      20.099  26.441   5.156  1.00 33.36      1CSP 631
+HETATM  514  O   HOH   108       7.957  31.851  -3.670  1.00 28.78      1CSP 632
+HETATM  515  O   HOH   109       4.951  24.603  12.495  1.00 53.35      1CSP 633
+HETATM  516  O   HOH   110      -1.031  34.659  -6.038  1.00 60.00      1CSP 634
+HETATM  517  O   HOH   111      19.863  28.380  15.468  1.00 39.17      1CSP 635
+HETATM  518  O   HOH   112      21.071  23.021   3.762  1.00 39.62      1CSP 636
+HETATM  519  O   HOH   113      27.466  18.886  20.531  1.00 39.91      1CSP 637
+HETATM  520  O   HOH   114      29.735  26.185   5.528  1.00 51.02      1CSP 638
+HETATM  521  O   HOH   115      14.381  10.617   2.369  1.00 56.74      1CSP 639
+HETATM  522  O   HOH   116      24.637  20.417   1.812  1.00 35.50      1CSP 640
+HETATM  523  O   HOH   117      35.570  21.183  13.145  1.00 43.53      1CSP 641
+HETATM  524  O   HOH   118      -2.004  24.093  -4.041  1.00 40.50      1CSP 642
+HETATM  525  O   HOH   119      23.959   6.687   6.038  1.00 60.00      1CSP 643
+HETATM  526  O   HOH   120       6.366  25.726   2.044  1.00 55.54      1CSP 644
+HETATM  527  O   HOH   121       7.868  10.872  13.331  1.00 56.73      1CSP 645
+HETATM  528  O   HOH   122      22.898  18.631  -6.689  1.00 39.93      1CSP 646
+HETATM  529  O   HOH   123      25.197  28.942   8.036  1.00 42.29      1CSP 647
+HETATM  530  O   HOH   124      20.128  -0.255  -2.973  1.00 52.16      1CSP 648
+HETATM  531  O   HOH   125      15.295  27.206   1.486  1.00 55.78      1CSP 649
+HETATM  532  O   HOH   126       6.837  26.543  12.309  1.00 46.01      1CSP 650
+HETATM  533  O   HOH   127       4.833  16.742   1.858  1.00 43.39      1CSP 651
+HETATM  534  O   HOH   128      13.468  38.436  12.960  1.00 42.84      1CSP 652
+HETATM  535  O   HOH   129      21.660   4.135   2.137  1.00 51.97      1CSP 653
+HETATM  536  O   HOH   130      31.710  18.376   4.506  1.00 60.00      1CSP 654
+HETATM  537  O   HOH   131       7.721  16.742  -1.765  1.00 44.18      1CSP 655
+HETATM  538  O   HOH   132      16.827   6.176   3.716  1.00 60.00      1CSP 656
+HETATM  539  O   HOH   133      19.568  23.582   1.347  1.00 60.00      1CSP 657
+HETATM  540  O   HOH   134      11.228  11.995  11.845  1.00 39.70      1CSP 658
+HETATM  541  O   HOH   135       7.927  26.083  21.878  1.00 58.70      1CSP 659
+HETATM  542  O   HOH   136      23.989  10.005   6.364  1.00 49.44      1CSP 660
+HETATM  543  O   HOH   137      23.163   0.204   5.063  1.00 60.00      1CSP 661
+HETATM  544  O   HOH   138      25.550  19.243  -5.853  1.00 60.00      1CSP 662
+HETATM  545  O   HOH   139      11.876  20.979  23.132  0.50 60.00      1CSP 663
+HETATM  546  O   HOH   140      10.786  18.682   0.000  0.50 43.20      1CSP 664
+MASTER       76    0    0    1   10    4    0    6  545    1    0    6  1CSP 665
+END                                                                     1CSP 666
