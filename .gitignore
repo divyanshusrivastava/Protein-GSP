@@ -1,8 +1,11 @@
 # directories
-notebooks/
+#notebooks/
 
 # matlab intermediate files
 *.m~
 
 # jupyter notebooks
-*ipynb
+#*ipynb
+
+
+.ipynb_checkpoints
